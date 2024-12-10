@@ -129,78 +129,111 @@ table {
   border-spacing: 0;
 }
 
-nav {
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.navbar .navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar nav {
   background-color: white;
   display: flex;
   height: 104px;
   width: 100%;
   align-items: center;
 }
-nav ul {
-  display: flex;
+.navbar nav ul {
   gap: 19px;
-  margin-top: 36px;
+  display: flex;
+  justify-content: flex-end;
   cursor: pointer;
 }
-nav li {
+.navbar nav li {
   font-size: 22px;
   font-weight: 800;
 }
-
-.logo {
-  margin-left: 30px;
+.navbar .logo {
+  margin-left: 45px;
+  margin-top: 150px;
 }
 
 .big {
+  background-image: url(../images/image.jpg);
+  justify-content: center;
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 606px;
   background-size: cover;
-  justify-content: center;
-  align-items: center;
   background-repeat: no-repeat;
   background-position: center;
+}
+.big .push1 {
+  font-size: 80px;
+  font-weight: 900;
+  color: #8d8d8d;
+  display: flex;
+}
+.big .push2 {
+  font-size: 80px;
+  font-weight: 900;
+  color: #8d8d8d;
+  display: flex;
+  justify-content: flex-end;
+}
+.big .bigdot {
+  justify-content: center;
+  display: flex;
+}
+.big .bigdot .dot {
+  color: white;
+  border-radius: 50px;
+  font-size: 100px;
 }
 
 .tbc {
   width: 10%;
 }
 
-.new {
+.section {
+  padding: 0px 0px 0px 130px;
+}
+.section .new {
   margin-top: 147px;
   background-color: #005bbb;
   width: 60%;
   height: 236px;
-  margin-left: 120px;
   border-radius: 50px;
   font-size: 60px;
   font-weight: 700;
   text-align: center;
+  justify-content: center;
   color: white;
-}
-
-.new2 {
-  display: flex;
 }
 
 .card {
   flex-wrap: wrap;
   display: flex;
+  margin-top: 50px;
+  flex-direction: row;
 }
-
-.cards1 {
-  border-radius: 50px;
-  justify-content: center;
+.card .cards1 {
+  margin-right: 39px;
 }
-
-.proects {
-  background-color: #d7302a;
-  width: 20%;
-  height: 500px;
-  border-radius: 50px;
-  font-size: 53px;
-  font-weight: 800;
-  justify-content: center;
-  color: white;
+.card .cards1 .cards2 {
+  margin-right: 39px;
+}
+.card .text {
+  font-weight: 900;
+  font-size: 18px;
+  background-color: #ebdad3;
+  height: 90px;
+  width: 100%;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
