@@ -1,0 +1,9 @@
+@mixin flex {
+  display: flex;
+  gap: 19px;
+  margin-top: 36px;
+}
+@mixin card {
+  border-radius: 50px;
+  justify-content: center;
+}
