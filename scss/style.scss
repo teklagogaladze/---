@@ -42,23 +42,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  .push1 {
-    @include push;
-    display: flex;
-  }
-  .push2 {
-    @include push;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .bigdot {
-    @include display;
-    .dot {
-      color: white;
-      border-radius: 50px;
-      font-size: 100px;
-    }
-  }
 }
 
 .tbc {
@@ -75,7 +58,6 @@
     font-size: 60px;
     font-weight: 700;
     text-align: center;
-    justify-content: center;
     color: white;
   }
 }
@@ -94,9 +76,25 @@
   .text {
     font-weight: 900;
     font-size: 18px;
-    background-color: #ebdad3;
     height: 90px;
     width: 100%;
     text-align: center;
   }
+}
+footer {
+  background-image: url(../images/footer.png);
+  height: 337px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contc {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+.email {
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
 }
