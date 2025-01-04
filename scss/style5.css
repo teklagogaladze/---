@@ -1,0 +1,231 @@
+@import url("https://cdn.web-fonts.ge/fonts/bpg-rioni-vera/css/bpg-rioni-vera.min.css");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "BPG Rioni Vera", sans-serif;
+  background-image: url(../images/Screenshot\ 2024-12-26\ 150826.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar .navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.links:hover {
+  font-size: 25px;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  height: 104px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px 0px grey;
+}
+nav ul {
+  gap: 19px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-right: 81px;
+}
+nav li {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.logo {
+  margin-left: 45px;
+  margin-top: 150px;
+  height: 172px;
+  width: 183px;
+}
+
+.bigdiv {
+  background-color: #d7302a;
+  opacity: 0.3;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.8);
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  margin-top: 230px;
+  border-radius: 30px;
+}
+
+.contactss {
+  font-size: 45px;
+  font-weight: 400;
+  color: #9f1616;
+}
+
+.contc {
+  padding: 20px 40px;
+}
+
+.informacion {
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+}
+
+i {
+  color: black;
+  font-size: 27px;
+  margin-right: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  margin-top: 40px;
+}
+
+div a {
+  text-decoration: none;
+}/*# sourceMappingURL=style5.css.map */

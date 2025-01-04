@@ -1,0 +1,87 @@
+@import "reset";
+@import "mixin";
+@import url("https://cdn.web-fonts.ge/fonts/bpg-rioni-vera/css/bpg-rioni-vera.min.css");
+body {
+  font-family: "BPG Rioni Vera", sans-serif;
+  background-image: url(../images/Screenshot\ 2024-12-26\ 150826.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  .navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+}
+.links:hover {
+  font-size: 25px;
+}
+nav {
+  background-color: white;
+  display: flex;
+  height: 104px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px 0px grey;
+
+  ul {
+    @include flex;
+    cursor: pointer;
+    margin-right: 81px;
+  }
+  li {
+    font-size: 22px;
+    font-weight: 800;
+  }
+}
+.logo {
+  margin-left: 45px;
+  margin-top: 150px;
+  height: 172px;
+  width: 183px;
+}
+.bigdiv {
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.8);
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  margin-top: 230px;
+  border-radius: 30px;
+}
+.contactss {
+  font-size: 45px;
+  font-weight: 400;
+  color: #9f1616;
+}
+.contc {
+  padding: 20px 40px;
+}
+.informacion {
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+}
+i {
+  color: black;
+  font-size: 27px;
+  margin-right: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  display: flex;
+  margin-top: 40px;
+}
+div a {
+  text-decoration: none;
+}

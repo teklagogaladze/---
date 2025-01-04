@@ -12,3 +12,8 @@
   justify-content: center;
   display: flex;
 }
+@mixin center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

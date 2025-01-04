@@ -132,6 +132,9 @@ table {
 
 body {
   font-family: "BPG Rioni Vera", sans-serif;
+  background-image: url(../images/Screenshot\ 2025-01-01\ 162858.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
@@ -146,7 +149,16 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-.navbar nav {
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 25px;
+}
+
+nav {
   background-color: white;
   display: flex;
   height: 104px;
@@ -155,120 +167,75 @@ body {
   justify-content: space-between;
   box-shadow: 0px 0px 10px 0px grey;
 }
-.navbar nav ul {
+nav ul {
   gap: 19px;
   display: flex;
   justify-content: flex-end;
   cursor: pointer;
   margin-right: 81px;
 }
-.navbar nav li {
+nav li {
   font-size: 22px;
   font-weight: 800;
 }
-.navbar nav li a {
-  text-decoration: none;
-}
-.navbar nav li a:hover {
-  font-size: 25px;
-}
-.navbar .logo {
+
+.logo {
   margin-left: 45px;
   margin-top: 150px;
 }
 
-.big {
-  background-image: url(../images/image.jpg);
+.frame > div {
+  background-image: url(../images/img2.jpg);
+  width: 100%;
+  height: 600px;
   justify-content: center;
   display: flex;
-  width: 100%;
-  height: 606px;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
-.tbc {
-  width: 10%;
+.bigdiv {
+  margin-top: 90px;
+  margin-left: 41px;
 }
 
-.leftside {
-  width: 850px;
-}
-
-.new2 {
-  width: 100%;
-  cursor: pointer;
-}
-
-.section {
-  padding: 131px 0px 0px 130px;
-  display: flex;
-  gap: 37px;
-}
-.section .new {
-  background-color: #005bbb;
-  height: 236px;
-  border-radius: 50px;
-  font-size: 60px;
+.school {
+  color: #9f1616;
+  font-size: 25px;
   font-weight: 700;
-  text-align: center;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  margin-bottom: 26px;
 }
 
-.card {
-  flex-wrap: wrap;
-  display: flex;
-  margin-top: 50px;
-  flex-direction: row;
-  gap: 39px;
-}
-.card .text {
+.us {
+  color: #ff0000;
+  font-size: 35px;
   font-weight: 900;
-  font-size: 18px;
-  height: 90px;
-  width: 100%;
-  text-align: center;
+  margin-bottom: 26px;
 }
 
-.rightside {
-  width: 355px;
-  height: 1044px;
-  background-color: #d7302a;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  border-radius: 50px;
-  font-size: 50px;
-  color: white;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.dot {
-  font-size: 70px;
-  font-weight: 700;
+.text {
   color: black;
-  display: flex;
-  flex-direction: row;
-  gap: 19px;
-  justify-content: center;
-  margin-right: 90px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 71px;
 }
 
-i {
-  font-size: 40px;
-  color: grey;
-  cursor: pointer;
-  opacity: 0.4;
+.img {
+  background-image: url(../images/img5.jpg);
+  background-repeat: no-repeat;
 }
 
-.cards-container {
-  display: flex;
-  align-items: center;
+.top {
+  margin-left: 750px;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: grey;
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
 }
 
 .last {
@@ -285,11 +252,4 @@ i {
 
 .email {
   margin-bottom: 20px;
-}
-
-footer {
-  background-color: grey;
-  width: 100%;
-  height: 200px;
-  margin-top: 100px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style2.css.map */
