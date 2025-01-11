@@ -132,7 +132,7 @@ table {
 
 body {
   font-family: "BPG Rioni Vera", sans-serif;
-  background-image: url(../images/Screenshot\ 2024-12-26\ 150826.png);
+  background-image: url(../images/Screenshot\ 2025-01-06\ 162141.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -150,7 +150,13 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+.fa-bars {
+  display: none;
+  padding: 20px 40px;
+  color: black;
+  @media only screen and (max-width: 700px) {
+  }
+}
 .links:hover {
   font-size: 25px;
 }
@@ -174,6 +180,9 @@ nav ul {
 nav li {
   font-size: 22px;
   font-weight: 800;
+  @media only screen and (max-width: 833px) {
+    display: none;
+  }
 }
 
 .logo {
@@ -184,20 +193,30 @@ nav li {
 }
 
 .bigdiv {
-  background-color: #d7302a;
-  opacity: 0.3;
+  background-color: #d7302a(0, 0, 0, 0.5);
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.8);
   width: 80%;
   height: 400px;
   margin: auto;
   margin-top: 230px;
   border-radius: 30px;
+  @media only screen and (max-width: 720px) {
+    height: 700px;
+  }
+  @media only screen and (max-width: 650px) {
+    height: 850px;
+  }
 }
 
 .contactss {
   font-size: 45px;
   font-weight: 400;
   color: #9f1616;
+  @media only screen and (max-width: 720px) {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+  }
 }
 
 .contc {
@@ -208,12 +227,19 @@ nav li {
   font-size: 26px;
   font-weight: 500;
   color: black;
+  @media only screen and (max-width: 720px) {
+    font-size: 34px;
+    font-weight: 600;
+  }
 }
 
 i {
   color: black;
   font-size: 27px;
   margin-right: 40px;
+  @media only screen and (max-width: 720px) {
+    font-size: 34px;
+  }
 }
 
 .card {
@@ -224,8 +250,11 @@ i {
 .icons {
   display: flex;
   margin-top: 40px;
+  @media only screen and (max-width: 720px) {
+    margin-top: 90px;
+  }
 }
 
 div a {
   text-decoration: none;
-}/*# sourceMappingURL=style5.css.map */
+} /*# sourceMappingURL=style5.css.map */
